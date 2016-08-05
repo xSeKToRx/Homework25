@@ -9,6 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *viewImage;
+@property (weak, nonatomic) IBOutlet UIImageView *flagImage;
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *buttonsCollection;
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
+@property BOOL enteringDecimal;
+
+- (IBAction)actionButton:(UIButton *)sender;
+- (IBAction)indicatorButton:(UIButton *)sender;
+- (IBAction)pressedDote:(UIButton *)sender;
 
 
 @end

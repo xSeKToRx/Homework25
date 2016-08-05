@@ -15,6 +15,10 @@
 		2DBD28F21D3546E0005EACDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBD28F01D3546E0005EACDE /* LaunchScreen.storyboard */; };
 		2DBD28FD1D3546E0005EACDE /* Homework25Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD28FC1D3546E0005EACDE /* Homework25Tests.m */; };
 		2DBD29081D3546E0005EACDE /* Homework25UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD29071D3546E0005EACDE /* Homework25UITests.m */; };
+		2DF327DD1D37FF3E00429996 /* i.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF327DC1D37FF3E00429996 /* i.png */; };
+		2DF327E11D3812F800429996 /* 21.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF327E01D3812F800429996 /* 21.png */; };
+		2DF327E31D381CF400429996 /* mu_converted.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF327E21D381CF400429996 /* mu_converted.png */; };
+		2DF327E51D381DEE00429996 /* 44.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF327E41D381DEE00429996 /* 44.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		2DBD29031D3546E0005EACDE /* Homework25UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Homework25UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBD29071D3546E0005EACDE /* Homework25UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Homework25UITests.m; sourceTree = "<group>"; };
 		2DBD29091D3546E0005EACDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DF327DC1D37FF3E00429996 /* i.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i.png; sourceTree = "<group>"; };
+		2DF327E01D3812F800429996 /* 21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 21.png; sourceTree = "<group>"; };
+		2DF327E21D381CF400429996 /* mu_converted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mu_converted.png; sourceTree = "<group>"; };
+		2DF327E41D381DEE00429996 /* 44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,7 @@
 				2DBD28EE1D3546E0005EACDE /* Assets.xcassets */,
 				2DBD28F01D3546E0005EACDE /* LaunchScreen.storyboard */,
 				2DBD28F31D3546E0005EACDE /* Info.plist */,
+				2DBD29151D356F81005EACDE /* image */,
 				2DBD28E21D3546E0005EACDE /* Supporting Files */,
 			);
 			path = Homework25;
@@ -138,6 +147,17 @@
 				2DBD29091D3546E0005EACDE /* Info.plist */,
 			);
 			path = Homework25UITests;
+			sourceTree = "<group>";
+		};
+		2DBD29151D356F81005EACDE /* image */ = {
+			isa = PBXGroup;
+			children = (
+				2DF327E21D381CF400429996 /* mu_converted.png */,
+				2DF327E41D381DEE00429996 /* 44.png */,
+				2DF327E01D3812F800429996 /* 21.png */,
+				2DF327DC1D37FF3E00429996 /* i.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +263,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF327E31D381CF400429996 /* mu_converted.png in Resources */,
 				2DBD28F21D3546E0005EACDE /* LaunchScreen.storyboard in Resources */,
 				2DBD28EF1D3546E0005EACDE /* Assets.xcassets in Resources */,
 				2DBD28ED1D3546E0005EACDE /* Main.storyboard in Resources */,
+				2DF327DD1D37FF3E00429996 /* i.png in Resources */,
+				2DF327E11D3812F800429996 /* 21.png in Resources */,
+				2DF327E51D381DEE00429996 /* 44.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +520,7 @@
 				2DBD290E1D3546E0005EACDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DBD290F1D3546E0005EACDE /* Build configuration list for PBXNativeTarget "Homework25Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +529,7 @@
 				2DBD29111D3546E0005EACDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DBD29121D3546E0005EACDE /* Build configuration list for PBXNativeTarget "Homework25UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +538,7 @@
 				2DBD29141D3546E0005EACDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
